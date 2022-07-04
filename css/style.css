@@ -1,0 +1,52 @@
+body {
+    background: #fcfcfc;
+}
+
+.contenedor {
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40vh;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+p {
+    background: pink;
+    display: initial;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.p1 {
+    position: absolute;
+    left: 550px;
+    width: 100px;
+}
+
+.p1:hover {
+    background: rgb(244, 39, 73);
+    cursor: pointer;
+}
+
+.p2 {
+    position: absolute;
+    left: 730px;
+    width: 100px;
+}
+
+p.p2:hover {
+    background: rgb(244, 39, 73);
+    cursor: pointer;
+}
+
+.p1,
+.p2 {
+    margin-left: 5%;
+    margin-top: 2%;
+}
